@@ -71,12 +71,18 @@ main {
   justify-content: center;
 }
 
+#ctn-people {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .card {
   border-radius: 25px;
   background-color: #000000;
   width: 250px;
   min-width: 250px;
-  text-wrap: wrap;
+  word-wrap: wrap;
   text-align: center;
   margin: 15px;
   padding: 5px;  
@@ -115,7 +121,7 @@ main {
   cursor: wait;
 }
 
-@media only screen and (max-width: 1000px){
+/* @media only screen and (max-width: 1000px){
   body {
     font-size: x-large;
   }
@@ -126,4 +132,4 @@ main {
   button {
     height: 20px;
   }
-}
+} */
