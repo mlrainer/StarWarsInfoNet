@@ -78,7 +78,6 @@ main {
 }
 
 .card {
-  border-radius: 25px;
   background-color: #ffffff;
   width: 250px;
   min-width: 250px;
@@ -89,11 +88,12 @@ main {
   padding: 1em;
   grid-template-rows: 0.1fr 0.7fr 0.25fr;
   background-color: hsl(296, 59%, 10%);
+  color:#FFE81F;
   width: 10em;
   aspect-ratio: 9/16;
   -webkit-clip-path: polygon(0 0, 85% 0, 100% 14%, 100% 60%, 92% 65%, 93% 77%, 99% 80%, 99% 90%, 89% 100%, 0 100%);
   clip-path: polygon(0 0, 85% 0, 100% 14%, 100% 60%, 92% 65%, 93% 77%, 99% 80%, 99% 90%, 89% 100%, 0 100%);
-  filter: drop-shadow(46px 36px 24px #4090b5) drop-shadow(-55px -40px 25px #9e30a9);
+  filter: drop-shadow(46px 36px 24px #4090b5) drop-shadow(-55px -40px 25px #364a53);
   animation: blinkShadowsFilter 8s ease-in infinite;
 }
 .card::before {
@@ -103,7 +103,7 @@ main {
   width: 250%;
   aspect-ratio: 1/1;
   transform-origin: center;
-  background: linear-gradient(to bottom, transparent, transparent, #66e0ff, #66e0ff, #e366ff, #e366ff, transparent, transparent), linear-gradient(to left, transparent, transparent, #66e0ff, #66e0ff, #e366ff, #e366ff, transparent, transparent);
+  background: linear-gradient(to bottom, transparent, transparent, #a4a27e, #a4a27e, #364a53, #364a53, transparent, transparent), linear-gradient(to left, transparent, transparent, #a4a27e, #a4a27e, #364a53, #364a53, transparent, transparent);
   animation: rotate 5s infinite linear;
 }
 
@@ -186,11 +186,11 @@ main {
 
 @keyframes blinkShadowsFilter {
   0% {
-    filter: drop-shadow(46px 36px 28px rgba(64, 144, 181, 0.3411764706)) drop-shadow(-55px -40px 28px #9e30a9);
+    filter: drop-shadow(46px 36px 28px rgba(64, 144, 181, 0.3411764706)) drop-shadow(-55px -40px 28px #aba49e);
   }
 
   25% {
-    filter: drop-shadow(46px -36px 24px rgba(64, 144, 181, 0.8980392157)) drop-shadow(-55px 40px 24px #9e30a9);
+    filter: drop-shadow(46px -36px 24px rgba(64, 144, 181, 0.8980392157)) drop-shadow(-55px 40px 24px #aba49e);
   }
 
   50% {
@@ -202,6 +202,6 @@ main {
   }
 
   to {
-    filter: drop-shadow(46px 36px 28px rgba(64, 144, 181, 0.3411764706)) drop-shadow(-55px -40px 28px #9e30a9);
+    filter: drop-shadow(46px 36px 28px rgba(64, 144, 181, 0.3411764706)) drop-shadow(-55px -40px 28px #aba49e);
   }
 }/*# sourceMappingURL=style.css.map */
