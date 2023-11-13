@@ -43,10 +43,35 @@
   .sidenav a {font-size: 18px;}
 }
 body {
+  background-position: center center;
   width: 100vw;
   height: 100vh;
+  color:#FFE81F;
   background-image: url('../PageBackround/vecteezy_blue-motion-abstract-background-vector_7711017.jpg');
   background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* next size - tablet */
+@media (min-width: 768px) {
+  .body {
+    background-image: url('../PageBackround/vecteezy_blue-motion-abstract-background-vector_7711017.jpg');
+  }
+}
+
+/* next size - tablet landscape and it covers desktop */
+@media (min-width: 1024px) {
+  .body{
+    background-image: url('../PageBackround/vecteezy_blue-motion-abstract-background-vector_7711017.jpg');
+  }
+}
+
+/* next size - larger desktops */
+@media (min-width: 1280px) {
+  .body {
+    background-image: url('../PageBackround/vecteezy_blue-motion-abstract-background-vector_7711017.jpg');
+  }
 }
 
 main {
