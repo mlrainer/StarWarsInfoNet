@@ -1,3 +1,4 @@
+
 /* Side Navigation push with opacity */
 .sidenav {
   height: 100%;
@@ -52,6 +53,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+
 
 /* next size - tablet */
 @media (min-width: 768px) {
@@ -109,6 +111,7 @@ main {
   background-color: #ffffff;
   width: 250px;
   min-width: 250px;
+  font-size: 1.25em;
   word-wrap: wrap;
   text-align: center;
   margin: 15px;
@@ -124,7 +127,7 @@ main {
   filter: drop-shadow(46px 36px 24px #4090b5) drop-shadow(-55px -40px 25px #364a53);
   animation: blinkShadowsFilter 8s ease-in infinite;
 }
-.card::before {
+.card:hover::before {
   z-index: -1;
   content: "";
   position: absolute;

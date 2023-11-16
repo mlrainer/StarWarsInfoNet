@@ -28,6 +28,7 @@ async function fetchFilms() {
                   <h5>Producer: ${item.producer}</h5>
                   <h5>Release Date: ${item.release_date}</h5>
                </div>`
+               
   })
   ctnFilms.innerHTML = outPut;
 }
