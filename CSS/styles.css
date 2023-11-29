@@ -95,20 +95,10 @@ main {
   justify-content: center;  
 }
 
-#ctn-planets {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-#ctn-people {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
 .card {
   background-color: #ffffff;
+  height: 500px;
+  overflow: scroll;
   width: 250px;
   min-width: 250px;
   font-size: 1.25em;
@@ -150,19 +140,6 @@ main {
   box-shadow: inset 0px 0px 30px 40px hsl(296, 59%, 10%);
   -webkit-clip-path: polygon(0 0, 85% 0, 100% 14%, 100% 60%, 92% 65%, 93% 77%, 99% 80%, 99% 90%, 89% 100%, 0 100%);
   clip-path: polygon(0 0, 85% 0, 100% 14%, 100% 60%, 92% 65%, 93% 77%, 99% 80%, 99% 90%, 89% 100%, 0 100%);
-}
-
-.card-planet {
-  border: 3px solid #364A5C;
-}
-
-.card-starships {
-  border: 3px solid #364A5C;
-}
-
-.card-people {
-  border: 3px solid #364A5C;
-  
 }
 
 .overlay {

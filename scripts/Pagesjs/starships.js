@@ -20,7 +20,7 @@ async function fetchStarships() {
     let outPut = ' ';
     document.querySelector('.overlay').classList.remove('active');
     starships.forEach(item => {
-      outPut += `<div class="card card-starships">
+      outPut += `<div class="card">
                     <h2>${item.name}</h2>
                     <h5>Model: ${item.model}</h5>
                     <h5>Star Ship Class: ${item.starship_class}</h5>

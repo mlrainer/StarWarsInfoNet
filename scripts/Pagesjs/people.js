@@ -20,7 +20,7 @@ async function fetchPeople() {
   let outPut = ' ';
   document.querySelector('.overlay').classList.remove('active');
   people.forEach(item => {
-    outPut += `<div class="card card-people">
+    outPut += `<div class="card">
                   <h2>${item.name}</h2>
                   <h5>Gender: ${item.gender}</h5>
                   <h5>Birth Year: ${item.birth_year}</h5>

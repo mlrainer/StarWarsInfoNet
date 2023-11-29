@@ -20,7 +20,7 @@ async function fetchFilms() {
   let outPut = ' ';
   document.querySelector('.overlay').classList.remove('active');
   films.forEach(item => {
-    outPut += `<div class="card card-films">
+    outPut += `<div class="card">
                   <h2>${item.title}</h2>
                   <h5>Episode: ${item.episode_id}</h5>
                   <h5>Opening Crawl: ${item.opening_crawl}</h5>

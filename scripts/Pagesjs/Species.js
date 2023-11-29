@@ -20,7 +20,7 @@ async function fetchSpecies() {
     let outPut = ' ';
     document.querySelector('.overlay').classList.remove('active');
     species.forEach(item => {
-      outPut += `<div class="card card-species">
+      outPut += `<div class="card">
                     <h2>${item.name}</h2>
                     <h5>Classification: ${item.classification}</h5>
                     <h5>Designation: ${item.designation}</h5>

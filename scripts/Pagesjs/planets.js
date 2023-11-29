@@ -20,7 +20,7 @@ async function fetchPlanets() {
     let outPut = ' ';
     document.querySelector('.overlay').classList.remove('active');
     planets.forEach(item => {
-      outPut += `<div class="card card-planet">
+      outPut += `<div class="card">
                     <h2>${item.name}</h2>
                     <h5>Climate: ${item.climate}</h5>
                     <h5>Terrain: ${item.terrain}</h5>
