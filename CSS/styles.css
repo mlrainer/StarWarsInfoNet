@@ -1,4 +1,4 @@
-
+@import url('https://fonts.cdnfonts.com/css/aurebesh');
 /* Side Navigation push with opacity */
 .sidenav {
   height: 100%;
@@ -95,6 +95,7 @@ main {
   justify-content: center;  
 }
 
+
 .card {
   background-color: #ffffff;
   height: 500px;
@@ -102,13 +103,15 @@ main {
   width: 250px;
   min-width: 250px;
   font-size: 1.25em;
+  font-family: 'Aurebesh', sans-serif;
+  font-family: 'Aurebesh Condensed', sans-serif;
   word-wrap: wrap;
   text-align: center;
   margin: 15px;
   padding: 5px; 
   padding: 1em;
   grid-template-rows: 0.1fr 0.7fr 0.25fr;
-  background-color: hsl(296, 59%, 10%);
+  background-color: #a4a27e;
   color:#FFE81F;
   width: 10em;
   aspect-ratio: 9/16;
