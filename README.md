@@ -16,3 +16,5 @@ Features used:
 
 3. Retrieve data from a third-party API and use it to display something within your app. - Located in the page .js files.
 
+Still working on trivia game but I don't think I'm going to get it done before deadline so I added a "Coming Soon Page"
+
